@@ -4,6 +4,29 @@
     padding: 0;
     max-width: 1280px;
 }
+
+  
+
 body{
     font-family: 'Poppins', sans-serif;
+    
+}
+
+.bContainer{
+   background-image: linear-gradient(to bottom right, #0C1323, purple);;
+}
+
+.bContainer > div{ 
+    animation: slide linear infinite;
+    animation-duration: calc(1s + 3s * var(--btn-index));
+    
+        
+}
+@keyframes slide {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(95%);
+    }
 }

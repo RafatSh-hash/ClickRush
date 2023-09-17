@@ -16,12 +16,10 @@ body{
    background-image: linear-gradient(to bottom right, #0C1323, purple);;
 }
 
-.bContainer > div{ 
-    animation: slide linear infinite;
-    animation-duration: calc(1s + 3s * var(--btn-index));
-    
-        
+.x { 
+    animation: slide calc(1s + 2s * var(--btn-speed)) linear infinite;
 }
+
 @keyframes slide {
     0%, 100% {
         transform: translateX(0);

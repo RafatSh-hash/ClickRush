@@ -12,8 +12,8 @@ body{
     
 }
 
-.bContainer{
-   background-image: linear-gradient(to bottom right, #0C1323, purple);;
+#bContainer{
+   background-color : #0C1323;
 }
 
 .x { 
